@@ -8,7 +8,7 @@ const UrgencyBanner = () => (
       <a href="tel:+555430274305" className="font-bold underline hover:opacity-80 transition-opacity">(54) 3027-4305</a>
       <span className="hidden sm:inline">|</span>
       <span>WhatsApp:</span>
-      <a href="https://api.whatsapp.com/send?phone=5554997238827" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:opacity-80 transition-opacity">(54) 99723-8827</a>
+      <a href="https://api.whatsapp.com/send?phone=555499723827" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:opacity-80 transition-opacity">(54) 99723-8827</a>
     </div>
   </div>
 );
