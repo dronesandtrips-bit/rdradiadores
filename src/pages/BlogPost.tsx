@@ -67,7 +67,12 @@ const BlogPost = () => {
       <main className="section-padding bg-background">
         <div className="container mx-auto text-center">
           <h1 className="font-heading text-3xl font-bold text-foreground mb-4">Artigo não encontrado</h1>
-          <Link to="/blog" className="text-primary font-heading font-bold uppercase hover:text-accent transition-colors">← Voltar ao Blog</Link>
+          <Link
+            to="/blog"
+            className="text-primary font-heading font-bold uppercase hover:text-accent transition-colors"
+          >
+            ← Voltar ao Blog
+          </Link>
         </div>
       </main>
     );
@@ -80,14 +85,21 @@ const BlogPost = () => {
         <div className="absolute inset-0 bg-secondary/70" />
         <div className="absolute inset-0 flex items-center justify-center">
           <AnimatedSection className="text-center px-4 max-w-3xl">
-            <h1 className="font-heading text-2xl md:text-4xl font-black uppercase text-secondary-foreground leading-tight">{article.title}</h1>
+            <h1 className="font-heading text-2xl md:text-4xl font-black uppercase text-secondary-foreground leading-tight">
+              {article.title}
+            </h1>
           </AnimatedSection>
         </div>
       </section>
 
       <section className="section-padding bg-background">
         <div className="container mx-auto max-w-3xl">
-          <Link to="/blog" className="text-primary font-heading font-bold uppercase text-sm hover:text-accent transition-colors mb-8 inline-block">← Voltar ao Blog</Link>
+          <Link
+            to="/blog"
+            className="text-primary font-heading font-bold uppercase text-sm hover:text-accent transition-colors mb-8 inline-block"
+          >
+            ← Voltar ao Blog
+          </Link>
           <div className="space-y-6">
             {article.content.map((p, i) => (
               <AnimatedSection key={i} delay={i * 0.05}>
@@ -96,9 +108,11 @@ const BlogPost = () => {
             ))}
           </div>
           <AnimatedSection className="mt-12 bg-primary/10 border border-primary/30 rounded-lg p-6 text-center">
-            <p className="font-heading text-xl font-bold text-foreground mb-4">Precisa de ajuda com o radiador do seu caminhão?</p>
+            <p className="font-heading text-xl font-bold text-foreground mb-4">
+              Precisa de ajuda com o radiador do seu caminhão?
+            </p>
             <a
-              href="https://api.whatsapp.com/send?phone=5554997238827"
+              href="https://api.whatsapp.com/send?phone=555499723827"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded font-heading font-bold uppercase tracking-wider hover:bg-accent transition-colors"
