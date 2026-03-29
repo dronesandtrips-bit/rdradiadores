@@ -13,7 +13,7 @@ const Contato = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Olá! Meu nome é ${form.nome}. Empresa: ${form.empresa || "N/A"}. Telefone: ${form.telefone}. Modelo: ${form.modelo}. Problema: ${form.problema}`;
-    window.open(`https://api.whatsapp.com/send?phone=5554997238827&text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://api.whatsapp.com/send?phone=555499723827&text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
@@ -39,34 +39,50 @@ const Contato = () => {
                     <MapPin className="w-5 h-5 text-primary mt-1 shrink-0" />
                     <div>
                       <h3 className="font-heading font-bold text-foreground">Endereço</h3>
-                      <p className="text-muted-foreground text-sm font-body">Rodovia BR 116, km 147, nº 15650 — Bairro De Lazzer, Caxias do Sul - RS, CEP 95059-520</p>
+                      <p className="text-muted-foreground text-sm font-body">
+                        Rodovia BR 116, km 147, nº 15650 — Bairro De Lazzer, Caxias do Sul - RS, CEP 95059-520
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-heading font-bold text-foreground">Telefone</h3>
-                      <a href="tel:+555430274305" className="text-primary text-sm font-body hover:text-accent transition-colors">(54) 3027-4305</a>
+                      <a
+                        href="tel:+555430274305"
+                        className="text-primary text-sm font-body hover:text-accent transition-colors"
+                      >
+                        (54) 3027-4305
+                      </a>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <MessageCircle className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-heading font-bold text-foreground">WhatsApp</h3>
-                      <a href="https://api.whatsapp.com/send?phone=5554997238827" target="_blank" rel="noopener noreferrer" className="text-primary text-sm font-body hover:text-accent transition-colors">(54) 99723-8827</a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone=555499723827"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary text-sm font-body hover:text-accent transition-colors"
+                      >
+                        (54) 99723-8827
+                      </a>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Clock className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <h3 className="font-heading font-bold text-foreground">Horário</h3>
-                      <p className="text-muted-foreground text-sm font-body">Seg–Sex 08:00–17:30 | Sábado 08:00–12:00 | Domingo Fechado</p>
+                      <p className="text-muted-foreground text-sm font-body">
+                        Seg–Sex 08:00–17:30 | Sábado 08:00–12:00 | Domingo Fechado
+                      </p>
                     </div>
                   </div>
                 </div>
 
                 <motion.a
-                  href="https://api.whatsapp.com/send?phone=5554997238827"
+                  href="https://api.whatsapp.com/send?phone=555499723827"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-3 bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-lg font-heading font-bold text-lg uppercase tracking-wider w-full hover:opacity-90 transition-opacity"
@@ -115,7 +131,9 @@ const Contato = () => {
                     </div>
                   ))}
                   <div>
-                    <label className="block text-sm font-heading font-bold text-foreground mb-1">Problema Relatado *</label>
+                    <label className="block text-sm font-heading font-bold text-foreground mb-1">
+                      Problema Relatado *
+                    </label>
                     <textarea
                       placeholder="Descreva o problema do radiador..."
                       required
