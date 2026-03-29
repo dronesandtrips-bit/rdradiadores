@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <header className="bg-secondary text-secondary-foreground sticky top-0 z-40 shadow-lg">
-      <div className="container mx-auto flex items-center justify-between py-3 px-4">
+      <div className="container mx-auto flex items-center justify-between py-3 px-4 bg-whatsapp-foreground">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="RD Radiadores" className="h-12 w-auto" />
         </Link>
@@ -28,8 +28,8 @@ const Header = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`px-4 py-2 font-body text-sm uppercase tracking-wider transition-colors duration-300 rounded hover:text-primary ${
-                location.pathname === item.path ? "text-primary font-bold" : "text-secondary-foreground/80"
+              className={`px-4 py-2 font-body text-sm uppercase tracking-wider transition-colors duration-300 rounded text-primary hover:text-primary ${
+                location.pathname === item.path ? "font-bold" : ""
               }`}
             >
               {item.label}
