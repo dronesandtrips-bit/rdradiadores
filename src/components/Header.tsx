@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/logoradiador.png";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -19,10 +20,7 @@ const Header = () => {
     <header className="bg-secondary text-secondary-foreground sticky top-0 z-40 shadow-lg">
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="bg-secondary px-3 py-1 rounded">
-            <span className="font-heading text-3xl font-black text-primary tracking-tight">RD</span>
-            <span className="block font-heading text-xs text-secondary-foreground tracking-[0.3em] uppercase -mt-1">Radiadores</span>
-          </div>
+          <img src={logo} alt="RD Radiadores" className="h-12 w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

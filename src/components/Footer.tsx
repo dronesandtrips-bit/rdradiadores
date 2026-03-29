@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Clock, MessageCircle } from "lucide-react";
+import logo from "@/assets/logoradiador.png";
 
 const Footer = () => (
   <footer className="bg-secondary text-secondary-foreground/80">
@@ -7,8 +8,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <div className="mb-4">
-            <span className="font-heading text-3xl font-black text-primary">RD</span>
-            <span className="block font-heading text-xs text-secondary-foreground tracking-[0.3em] uppercase -mt-1">Radiadores</span>
+            <img src={logo} alt="RD Radiadores" className="h-16 w-auto" />
           </div>
           <p className="text-sm leading-relaxed">
             Especialistas em radiadores para caminhões em Caxias do Sul e Serra Gaúcha.
