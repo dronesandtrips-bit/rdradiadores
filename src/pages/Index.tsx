@@ -294,7 +294,7 @@ const Index = () => {
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="max-w-[150px] h-auto grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+                    className="max-w-[150px] h-auto"
                   />
                 </div>
               ))}
