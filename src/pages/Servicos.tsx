@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const services = [
   {
     title: "Conserto e Recuperação de Radiadores",
-    image: "https://manus-user-assets.s3.amazonaws.com/fS3aDo29SSMT.webp",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/qzBtEGRPCCDNzkaz.webp",
     icon: Wrench,
     desc: "O serviço mais procurado. Diagnóstico completo e reparo de vazamentos, trincas, entupimentos e danos estruturais em radiadores de caminhão. Equipamentos modernos para teste de pressão e identificação precisa do problema. Atendemos Volvo, Scania, Mercedes-Benz, Iveco, DAF, MAN, Ford Cargo e outros.",
     items: [
@@ -19,7 +19,7 @@ const services = [
   },
   {
     title: "Venda de Radiadores Novos e Seminovos",
-    image: "https://manus-user-assets.s3.amazonaws.com/X08t4LyambrV.webp",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/gQRQrPNSRoFpLriP.webp",
     icon: Settings,
     desc: "Estoque de radiadores novos e recondicionados para as principais marcas de caminhões pesados. Peças com procedência garantida e compatibilidade verificada. Agilidade para seu caminhão voltar à estrada o mais rápido possível.",
     items: [
@@ -48,7 +48,7 @@ const services = [
   },
   {
     title: "Conserto de Intercooler",
-    image: "https://manus-user-assets.s3.amazonaws.com/J12AUHBByWxI.webp",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/eeKAjjdxHKnxVPrU.webp",
     icon: Settings,
     desc: "O intercooler é peça fundamental para o motor turbinado. Diagnóstico, reparo e substituição de intercoolers para caminhões pesados.",
     items: [
@@ -60,14 +60,14 @@ const services = [
   },
   {
     title: "Reparo de Vazamentos",
-    image: "https://manus-user-assets.s3.amazonaws.com/eqcK967LjHPb.jpg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/CTiTvdnqeAFatzwm.jpg",
     icon: Shield,
     desc: "Identificação e reparo preciso de vazamentos no sistema de arrefecimento com teste de pressão para localização exata, garantindo solução definitiva.",
     items: ["Vazamento no núcleo do radiador", "Nas caixas d'água", "Em mangueiras e conexões", "Em juntas e vedações"],
   },
   {
     title: "Check-up e Diagnóstico Completo",
-    image: "https://manus-user-assets.s3.amazonaws.com/o1iD9C6JkSMa.jpeg",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/IYdMChdfafvgcxYp.jpeg",
     icon: ClipboardList,
     desc: "Revisão completa do sistema de arrefecimento com laudo técnico. Ideal para frotas com manutenção preventiva programada.",
     items: [
