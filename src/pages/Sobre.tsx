@@ -35,7 +35,7 @@ const Sobre = () => {
                   <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80" alt="Equipe RD Radiadores" className="w-full h-72 object-cover" />
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=800&q=80" alt="Frota de caminhões" className="w-full h-48 object-cover" />
+                  <img src="https://manus-user-assets.s3.amazonaws.com/jK6QJz5ckNGJ.webp" alt="Radiador de caminhão" className="w-full h-48 object-cover" />
                 </div>
               </div>
             </AnimatedSection>
