@@ -352,11 +352,11 @@ const Index = () => {
 
       {/* CTA FINAL */}
       <section className="relative py-24 overflow-hidden bg-secondary">
-        <div className="absolute bottom-0 left-0 right-0 w-full pointer-events-none opacity-20 md:opacity-40">
+        <div className="absolute inset-0 flex items-end pointer-events-none opacity-20 md:opacity-40">
           <img
             src={truckCtaImg}
             alt="Caminhão"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-contain"
             loading="lazy"
           />
         </div>
