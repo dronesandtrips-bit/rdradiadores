@@ -282,19 +282,19 @@ const Index = () => {
               Trabalhamos com todos os principais fabricantes de caminhões pesados
             </p>
           </AnimatedSection>
-          <div className="relative overflow-x-auto scrollbar-hide" style={{ WebkitOverflowScrolling: 'touch' }}>
+          <div className="relative overflow-hidden">
             <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-secondary to-transparent z-10 pointer-events-none" />
             <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-secondary to-transparent z-10 pointer-events-none" />
-            <div className="flex animate-marquee gap-8 items-center">
+            <div className="flex animate-marquee gap-6 md:gap-8 items-center w-max">
               {[...brands, ...brands, ...brands].map((brand, i) => (
                 <div
                   key={`${brand.name}-${i}`}
-                  className="flex-shrink-0 px-4 py-3"
+                  className="flex-shrink-0 px-2 md:px-4 py-3"
                 >
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="max-w-[150px] h-auto"
+                    className="w-[80px] md:w-[120px] lg:w-[150px] h-auto"
                   />
                 </div>
               ))}
