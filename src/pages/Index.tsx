@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import truckCtaImg from "@/assets/truck-cta-nobg.png";
 import { Truck, Clock, Wrench, Shield, Zap, Settings, ClipboardList, Factory, Users } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import ServiceCard from "@/components/ServiceCard";
