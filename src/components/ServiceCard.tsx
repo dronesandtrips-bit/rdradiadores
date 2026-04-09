@@ -16,8 +16,8 @@ const ServiceCard = ({ title, description, image, icon: Icon, index }: ServiceCa
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ duration: 0.5, delay: index * 0.1 }}
-    whileHover={{ y: -8 }}
-    className="group bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500 border border-border"
+    whileHover={{ y: -10, scale: 1.03 }}
+    className="group bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-[0_20px_50px_-12px_hsl(209_100%_38%/0.25)] transition-all duration-500 border border-border hover:border-primary/30"
   >
     <div className="relative h-48 overflow-hidden">
       <img src={image} alt={title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" loading="lazy" />
