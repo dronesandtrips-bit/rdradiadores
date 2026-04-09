@@ -47,13 +47,13 @@ const services = [
   {
     title: "Conserto de Radiadores",
     desc: "Diagnóstico completo e reparo de vazamentos, trincas e entupimentos.",
-    image: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/qzBtEGRPCCDNzkaz.webp",
     icon: Wrench,
   },
   {
     title: "Venda de Radiadores",
     desc: "Estoque de radiadores novos e recondicionados para as principais marcas.",
-    image: "https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/gQRQrPNSRoFpLriP.webp",
     icon: Settings,
   },
   {
@@ -65,19 +65,19 @@ const services = [
   {
     title: "Conserto de Intercooler",
     desc: "Diagnóstico, reparo e substituição de intercoolers para caminhões pesados.",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/eeKAjjdxHKnxVPrU.webp",
     icon: Settings,
   },
   {
     title: "Reparo de Vazamentos",
     desc: "Identificação e reparo preciso de vazamentos com teste de pressão.",
-    image: "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/CTiTvdnqeAFatzwm.jpg",
     icon: Shield,
   },
   {
     title: "Check-up Completo",
     desc: "Revisão completa do sistema de arrefecimento com laudo técnico.",
-    image: "https://images.unsplash.com/photo-1504222490345-c075b6008014?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/IYdMChdfafvgcxYp.jpeg",
     icon: ClipboardList,
   },
 ];
@@ -96,17 +96,17 @@ const brands = [
 const blogPosts = [
   {
     title: "5 sinais de que o radiador do seu caminhão precisa de manutenção",
-    image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/qzBtEGRPCCDNzkaz.webp",
     slug: "sinais-manutencao-radiador",
   },
   {
     title: "Radiador novo ou recondicionado: qual escolher?",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/YjKvuvzckyhbjvmQ.webp",
     slug: "radiador-novo-ou-recondicionado",
   },
   {
     title: "Por que o superaquecimento pode destruir o motor?",
-    image: "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=600&q=80",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/vfeVGWeFurKBVHUS.webp",
     slug: "superaquecimento-motor",
   },
 ];
