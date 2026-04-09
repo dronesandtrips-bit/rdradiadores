@@ -94,7 +94,13 @@
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 15s linear infinite;
+  cursor: grab;
+}
+
+.animate-marquee:active {
+  cursor: grabbing;
+  animation-play-state: paused;
 }
 
 .animate-marquee:hover {
