@@ -94,9 +94,23 @@
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 15s linear infinite;
+  cursor: grab;
+}
+
+.animate-marquee:active {
+  cursor: grabbing;
+  animation-play-state: paused;
 }
 
 .animate-marquee:hover {
   animation-play-state: paused;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
