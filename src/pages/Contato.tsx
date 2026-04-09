@@ -95,7 +95,7 @@ const Contato = () => {
 
                 <div className="rounded-lg overflow-hidden shadow-lg h-64">
                   <iframe
-                    src="https://maps.google.com/maps?q=Rodovia+BR+116+km+147+15650+De+Lazzer+Caxias+do+Sul+RS+95059-520&z=15&output=embed"
+                    src="https://maps.google.com/maps?q=-29.1244,-51.1369&z=16&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
