@@ -54,10 +54,10 @@ const Footer = () => (
 
         <div>
           <h4 className="font-heading text-lg font-bold text-secondary-foreground mb-4 uppercase tracking-wider">Horário</h4>
-          <div className="text-sm space-y-2">
-            <div className="flex justify-between"><span>Segunda – Sexta</span><span className="text-primary">08:00 – 17:30</span></div>
-            <div className="flex justify-between"><span>Sábado</span><span className="text-primary">08:00 – 12:00</span></div>
-            <div className="flex justify-between"><span>Domingo</span><span className="text-destructive">Fechado</span></div>
+          <div className="bg-white/10 rounded-lg p-4 text-sm space-y-3">
+            <div className="flex justify-between"><span className="text-secondary-foreground">Segunda – Sexta</span><span className="text-primary font-semibold">08:00 – 17:30</span></div>
+            <div className="flex justify-between"><span className="text-secondary-foreground">Sábado</span><span className="text-primary font-semibold">08:00 – 12:00</span></div>
+            <div className="flex justify-between"><span className="text-secondary-foreground">Domingo</span><span className="text-destructive font-semibold">Fechado</span></div>
           </div>
         </div>
       </div>
