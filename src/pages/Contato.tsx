@@ -95,7 +95,7 @@ const Contato = () => {
 
                 <div className="rounded-lg overflow-hidden shadow-lg h-64">
                   <iframe
-                    src="https://maps.google.com/maps?q=-29.1495,-51.1475&z=17&output=embed"
+                    src="https://maps.google.com/maps?q=-29.149072,-51.143072&z=17&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
