@@ -351,15 +351,14 @@ const Index = () => {
       </section>
 
       {/* CTA FINAL */}
-      <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0">
+      <section className="relative py-24 overflow-hidden bg-secondary">
+        <div className="absolute bottom-0 right-0 w-[60%] max-w-[700px] opacity-30 md:opacity-50 pointer-events-none">
           <img
-            src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1600&q=80"
-            alt="Rodovia com caminhão"
-            className="w-full h-full object-cover"
+            src={truckCtaImg}
+            alt="Caminhão"
+            className="w-full h-auto object-contain"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-secondary/80" />
         </div>
         <div className="relative z-10 container mx-auto text-center px-4">
           <AnimatedSection>
