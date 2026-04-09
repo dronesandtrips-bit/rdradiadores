@@ -7,8 +7,8 @@ const Footer = () => (
     <div className="container mx-auto section-padding">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <div className="mb-4">
-            <img src={logo} alt="RD Radiadores" className="h-[70px] w-auto" style={{ filter: "drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.6))" }} />
+          <div className="mb-4 inline-block bg-white rounded-lg p-2.5">
+            <img src={logo} alt="RD Radiadores" className="h-[70px] w-auto" />
           </div>
           <p className="text-sm leading-relaxed">
             Especialistas em radiadores para caminhões em Caxias do Sul e Serra Gaúcha.
