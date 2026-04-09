@@ -82,7 +82,16 @@ const services = [
   },
 ];
 
-const brands = ["Volvo", "Scania", "Mercedes-Benz", "Iveco", "DAF", "MAN", "Ford Cargo", "Volkswagen", "International"];
+const brands = [
+  { name: "Scania", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/lYkuWPymUzpkCgwl.png" },
+  { name: "Volvo", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/zxPGiDmredFDswfb.png" },
+  { name: "Mercedes-Benz", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/ixAzrjiLPfYpbhFL.png" },
+  { name: "MAN", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/OuYrNTwsJlksJXpm.png" },
+  { name: "Iveco", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/WltQoyhfUyCAJjqI.png" },
+  { name: "DAF", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/kHWhAGIWAWiymnQI.png" },
+  { name: "Volkswagen", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/yeFrGfCFVbPqggCw.png" },
+  { name: "Ford", logo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663382812294/fnIfNESTWEEfjXxM.png" },
+];
 
 const blogPosts = [
   {
@@ -276,14 +285,17 @@ const Index = () => {
           <div className="relative">
             <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-secondary to-transparent z-10" />
             <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-secondary to-transparent z-10" />
-            <div className="flex animate-marquee gap-6">
+            <div className="flex animate-marquee gap-8 items-center">
               {[...brands, ...brands, ...brands].map((brand, i) => (
                 <div
-                  key={`${brand}-${i}`}
-                  className="bg-secondary-foreground/5 border border-secondary-foreground/20 rounded-lg px-6 py-4 flex items-center gap-3 cursor-default flex-shrink-0 hover:border-primary/50 transition-colors duration-300"
+                  key={`${brand.name}-${i}`}
+                  className="flex-shrink-0 px-4 py-3"
                 >
-                  <Truck className="w-5 h-5 text-primary" />
-                  <span className="font-heading text-lg font-bold text-secondary-foreground whitespace-nowrap">{brand}</span>
+                  <img
+                    src={brand.logo}
+                    alt={brand.name}
+                    className="max-w-[150px] h-auto grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+                  />
                 </div>
               ))}
             </div>
