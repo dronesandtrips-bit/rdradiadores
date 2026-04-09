@@ -112,10 +112,13 @@ const Index = () => {
       {/* HERO */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <motion.img
             src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1600&q=80"
             alt="Caminhão na estrada"
             className="w-full h-full object-cover"
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.15 }}
+            transition={{ duration: 20, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           />
           <div className="absolute inset-0 bg-secondary/75" />
         </div>
@@ -260,7 +263,7 @@ const Index = () => {
       </section>
 
       {/* MARCAS */}
-      <section className="bg-secondary section-padding">
+      <section className="bg-secondary section-padding overflow-hidden">
         <div className="container mx-auto text-center">
           <AnimatedSection>
             <h2 className="font-heading text-3xl md:text-5xl font-black uppercase text-secondary-foreground mb-2">
@@ -270,21 +273,20 @@ const Index = () => {
               Trabalhamos com todos os principais fabricantes de caminhões pesados
             </p>
           </AnimatedSection>
-          <div className="flex flex-wrap justify-center gap-4">
-            {brands.map((brand, i) => (
-              <motion.div
-                key={brand}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.08, duration: 0.4 }}
-                whileHover={{ scale: 1.1, borderColor: "hsl(209 100% 38%)" }}
-                className="bg-secondary-foreground/5 border border-secondary-foreground/20 rounded-lg px-6 py-4 flex items-center gap-3 cursor-default"
-              >
-                <Truck className="w-5 h-5 text-primary" />
-                <span className="font-heading text-lg font-bold text-secondary-foreground">{brand}</span>
-              </motion.div>
-            ))}
+          <div className="relative">
+            <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-secondary to-transparent z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-secondary to-transparent z-10" />
+            <div className="flex animate-marquee gap-6">
+              {[...brands, ...brands, ...brands].map((brand, i) => (
+                <div
+                  key={`${brand}-${i}`}
+                  className="bg-secondary-foreground/5 border border-secondary-foreground/20 rounded-lg px-6 py-4 flex items-center gap-3 cursor-default flex-shrink-0 hover:border-primary/50 transition-colors duration-300"
+                >
+                  <Truck className="w-5 h-5 text-primary" />
+                  <span className="font-heading text-lg font-bold text-secondary-foreground whitespace-nowrap">{brand}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -14,10 +14,17 @@ const navItems = [
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="bg-secondary text-secondary-foreground sticky top-0 z-40 shadow-lg">
+    <header className={`sticky top-0 z-40 transition-all duration-500 ${scrolled ? "bg-secondary/70 backdrop-blur-xl shadow-lg border-b border-secondary-foreground/10" : "bg-secondary shadow-lg"}`}>
       <div className="container mx-auto flex items-center justify-between py-3 px-4 bg-whatsapp-foreground">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="RD Radiadores" className="h-12 w-auto" />
