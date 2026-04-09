@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const services = [
   {
     title: "Conserto e Recuperação de Radiadores",
-    image: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=800&q=80",
+    image: "https://manus-user-assets.s3.amazonaws.com/fS3aDo29SSMT.webp",
     icon: Wrench,
     desc: "O serviço mais procurado. Diagnóstico completo e reparo de vazamentos, trincas, entupimentos e danos estruturais em radiadores de caminhão. Equipamentos modernos para teste de pressão e identificação precisa do problema. Atendemos Volvo, Scania, Mercedes-Benz, Iveco, DAF, MAN, Ford Cargo e outros.",
     items: [
