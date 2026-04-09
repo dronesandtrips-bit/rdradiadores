@@ -53,31 +53,31 @@ const services = [
   {
     title: "Venda de Radiadores",
     desc: "Estoque de radiadores novos e recondicionados para as principais marcas.",
-    image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?w=600&q=80",
     icon: Settings,
   },
   {
     title: "Limpeza e Manutenção",
     desc: "Manutenção preventiva que evita paradas inesperadas e prolonga a vida do motor.",
-    image: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&q=80",
     icon: Zap,
   },
   {
     title: "Conserto de Intercooler",
     desc: "Diagnóstico, reparo e substituição de intercoolers para caminhões pesados.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80",
     icon: Settings,
   },
   {
     title: "Reparo de Vazamentos",
     desc: "Identificação e reparo preciso de vazamentos com teste de pressão.",
-    image: "https://images.unsplash.com/photo-1596113199003-03babc2bdd2b?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=600&q=80",
     icon: Shield,
   },
   {
     title: "Check-up Completo",
     desc: "Revisão completa do sistema de arrefecimento com laudo técnico.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1504222490345-c075b6008014?w=600&q=80",
     icon: ClipboardList,
   },
 ];
@@ -101,12 +101,12 @@ const blogPosts = [
   },
   {
     title: "Radiador novo ou recondicionado: qual escolher?",
-    image: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80",
     slug: "radiador-novo-ou-recondicionado",
   },
   {
     title: "Por que o superaquecimento pode destruir o motor?",
-    image: "https://images.unsplash.com/photo-1609175172941-f9e00ad03e25?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=600&q=80",
     slug: "superaquecimento-motor",
   },
 ];

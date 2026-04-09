@@ -18,7 +18,7 @@ const articles: Record<string, { title: string; image: string; content: string[]
   },
   "radiador-novo-ou-recondicionado": {
     title: "Radiador novo ou recondicionado: qual escolher para seu caminhão?",
-    image: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
     content: [
       "Na hora de trocar o radiador do caminhão, surge a dúvida: comprar novo ou recondicionado? A resposta depende de vários fatores.",
       "Radiador Novo: É a melhor opção para caminhões novos ou com alto rodado quilométrico. Oferece maior durabilidade, garantia de fábrica e desempenho original. O custo é mais alto, mas o investimento se paga pela longevidade.",
@@ -30,7 +30,7 @@ const articles: Record<string, { title: string; image: string; content: string[]
   },
   "superaquecimento-motor": {
     title: "Por que o superaquecimento pode destruir o motor do seu caminhão?",
-    image: "https://images.unsplash.com/photo-1609175172941-f9e00ad03e25?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=800&q=80",
     content: [
       "O superaquecimento do motor é um dos problemas mais graves que um caminhão pode enfrentar. Ignorar os sinais pode transformar um reparo de R$ 500 em um prejuízo de R$ 50.000 ou mais.",
       "Danos causados pelo superaquecimento: Juntas do cabeçote fundidas — o calor excessivo deforma as juntas, causando vazamento de fluidos e perda de compressão. Pistões danificados — a dilatação térmica excessiva pode trincar ou emperrar os pistões no cilindro.",

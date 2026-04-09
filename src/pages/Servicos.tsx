@@ -19,7 +19,7 @@ const services = [
   },
   {
     title: "Venda de Radiadores Novos e Seminovos",
-    image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?w=800&q=80",
     icon: Settings,
     desc: "Estoque de radiadores novos e recondicionados para as principais marcas de caminhões pesados. Peças com procedência garantida e compatibilidade verificada. Agilidade para seu caminhão voltar à estrada o mais rápido possível.",
     items: [
@@ -35,7 +35,7 @@ const services = [
   },
   {
     title: "Limpeza e Manutenção do Sistema de Arrefecimento",
-    image: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=800&q=80",
     icon: Zap,
     desc: "Manutenção preventiva evita paradas inesperadas e prolonga a vida do motor. Limpeza completa do radiador, intercooler, mangueiras e componentes do circuito de arrefecimento.",
     items: [
@@ -48,7 +48,7 @@ const services = [
   },
   {
     title: "Conserto de Intercooler",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
     icon: Settings,
     desc: "O intercooler é peça fundamental para o motor turbinado. Diagnóstico, reparo e substituição de intercoolers para caminhões pesados.",
     items: [
@@ -60,14 +60,14 @@ const services = [
   },
   {
     title: "Reparo de Vazamentos",
-    image: "https://images.unsplash.com/photo-1596113199003-03babc2bdd2b?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=800&q=80",
     icon: Shield,
     desc: "Identificação e reparo preciso de vazamentos no sistema de arrefecimento com teste de pressão para localização exata, garantindo solução definitiva.",
     items: ["Vazamento no núcleo do radiador", "Nas caixas d'água", "Em mangueiras e conexões", "Em juntas e vedações"],
   },
   {
     title: "Check-up e Diagnóstico Completo",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1504222490345-c075b6008014?w=800&q=80",
     icon: ClipboardList,
     desc: "Revisão completa do sistema de arrefecimento com laudo técnico. Ideal para frotas com manutenção preventiva programada.",
     items: [
