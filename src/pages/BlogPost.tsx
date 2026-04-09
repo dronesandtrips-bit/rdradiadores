@@ -5,7 +5,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 const articles: Record<string, { title: string; image: string; content: string[] }> = {
   "sinais-manutencao-radiador": {
     title: "5 sinais de que o radiador do seu caminhão precisa de manutenção",
-    image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80",
+    image: "https://manus-user-assets.s3.amazonaws.com/fS3aDo29SSMT.webp",
     content: [
       "O radiador é uma das peças mais importantes do sistema de arrefecimento do caminhão. Quando ele falha, o motor pode superaquecer e causar danos irreversíveis. Confira os 5 sinais de alerta:",
       "1. Temperatura subindo acima do normal — Se o ponteiro do marcador de temperatura está subindo além do habitual, pode indicar problemas no radiador, como entupimento ou vazamento do líquido de arrefecimento. O risco é o superaquecimento do motor, que pode causar empenamento do cabeçote.",
@@ -18,7 +18,7 @@ const articles: Record<string, { title: string; image: string; content: string[]
   },
   "radiador-novo-ou-recondicionado": {
     title: "Radiador novo ou recondicionado: qual escolher para seu caminhão?",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
+    image: "https://manus-user-assets.s3.amazonaws.com/iSeXObj349Of.webp",
     content: [
       "Na hora de trocar o radiador do caminhão, surge a dúvida: comprar novo ou recondicionado? A resposta depende de vários fatores.",
       "Radiador Novo: É a melhor opção para caminhões novos ou com alto rodado quilométrico. Oferece maior durabilidade, garantia de fábrica e desempenho original. O custo é mais alto, mas o investimento se paga pela longevidade.",
@@ -30,7 +30,7 @@ const articles: Record<string, { title: string; image: string; content: string[]
   },
   "superaquecimento-motor": {
     title: "Por que o superaquecimento pode destruir o motor do seu caminhão?",
-    image: "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=800&q=80",
+    image: "https://manus-user-assets.s3.amazonaws.com/7NU91WO2eKWp.webp",
     content: [
       "O superaquecimento do motor é um dos problemas mais graves que um caminhão pode enfrentar. Ignorar os sinais pode transformar um reparo de R$ 500 em um prejuízo de R$ 50.000 ou mais.",
       "Danos causados pelo superaquecimento: Juntas do cabeçote fundidas — o calor excessivo deforma as juntas, causando vazamento de fluidos e perda de compressão. Pistões danificados — a dilatação térmica excessiva pode trincar ou emperrar os pistões no cilindro.",
