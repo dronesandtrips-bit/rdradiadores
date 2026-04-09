@@ -15,14 +15,14 @@ const posts = [
     slug: "radiador-novo-ou-recondicionado",
     title: "Radiador novo ou recondicionado: qual escolher para seu caminhão?",
     excerpt: "Compare custo, durabilidade e garantia entre radiadores novos e recondicionados.",
-    image: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
     date: "10 Mar 2026",
   },
   {
     slug: "superaquecimento-motor",
     title: "Por que o superaquecimento pode destruir o motor do seu caminhão?",
     excerpt: "Entenda os danos irreversíveis do superaquecimento e como prevenir.",
-    image: "https://images.unsplash.com/photo-1609175172941-f9e00ad03e25?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=800&q=80",
     date: "05 Mar 2026",
   },
   {

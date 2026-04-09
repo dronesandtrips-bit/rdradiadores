@@ -32,10 +32,10 @@ const Sobre = () => {
             <AnimatedSection direction="left">
               <div className="space-y-4">
                 <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80" alt="Equipe RD Radiadores" className="w-full h-72 object-cover" />
+                  <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80" alt="Equipe RD Radiadores" className="w-full h-72 object-cover" />
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-xl">
-                  <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=800&q=80" alt="Frota de caminhões" className="w-full h-48 object-cover" />
+                  <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=800&q=80" alt="Frota de caminhões" className="w-full h-48 object-cover" />
                 </div>
               </div>
             </AnimatedSection>
