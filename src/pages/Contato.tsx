@@ -157,6 +157,28 @@ const Contato = () => {
           </div>
         </div>
       </section>
+
+      <section className="section-padding bg-secondary">
+        <div className="container mx-auto">
+          <AnimatedSection>
+            <h2 className="font-heading text-2xl md:text-3xl font-black uppercase text-secondary-foreground mb-6 text-center">
+              Nossa Localização
+            </h2>
+            <div className="rounded-lg overflow-hidden shadow-lg h-80 md:h-96 border border-secondary-foreground/10">
+              <iframe
+                src="https://maps.google.com/maps?q=-29.149242401123047,-51.142852783203125&z=17&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização RD Radiadores"
+              />
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
     </main>
   );
 };
